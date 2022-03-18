@@ -1,0 +1,20 @@
+/*@import url(../blocks/inter/inter.css);*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+
+.header__lang-btn{
+  width: 1px; /* если у элемента не будет размеров, некоторые браузеры посчитают, что его вообще нет */
+  height: 1px;
+  overflow: hidden; /* без этого свойства тоже сработает, но так наверняка. Мы его ещё изучим, оно скрывает элементы, выходящие за границы родителя */
+  clip: rect(0 0 0 0);
+}
+
+.header__link {
+    color: white;
+}
+
+input[type="radio"]:checked + span {
+    text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+.header__lang-link_txt {
+    color: white;
+    padding-top: 46px;
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+}
+
+input[type="radio"]:checked + span {
+    text-decoration: underline;
+}

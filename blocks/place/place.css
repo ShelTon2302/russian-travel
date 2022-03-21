@@ -1,0 +1,11 @@
+.place {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 80px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.place:last-child {
+    margin: 0;
+}

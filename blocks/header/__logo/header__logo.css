@@ -1,6 +1,28 @@
 .header__logo {
-  width: 176px;
-  height: 52px;
-  background-image: url(../../../images/header-logo.svg);
-  margin: 28px auto 0 48px;
+    background-image: url(../../../images/header-logo.svg);
+    background-size: cover;
+}
+
+@media screen and (min-width: 900px) {
+    .header__logo {
+        width: 176px;
+        height: 52px;
+        margin: 28px auto 0 48px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .header__logo {
+        width: 176px;
+        height: 52px;
+        margin: 28px auto 0 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+        margin: 16px auto 0 16px;
+    }
 }

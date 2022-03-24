@@ -3,3 +3,9 @@
     /*height: 213px;*/
     margin: 0;
 }
+
+@media screen and (max-width: 500px) {
+    .photo-grid__item:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}

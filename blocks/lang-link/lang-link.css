@@ -1,0 +1,7 @@
+.lang-link {
+    margin: 0 17px 0 0;
+}
+
+.lang-link:last-child {
+    margin: 0;
+}

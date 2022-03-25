@@ -1,4 +1,4 @@
-.header__lang-link_txt {
+.lang-link_txt {
     color: white;
     padding-top: 46px;
     margin: 0;
@@ -13,14 +13,14 @@ input[type="radio"]:checked + span {
 }
 
 @media screen and (min-width: 500px) {
-    .header__lang-link_txt {
+    .lang-link_txt {
         font-size: 24px;
         line-height: 28px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .header__lang-link_txt {
+    .lang-link_txt {
         font-size: 18px;
         line-height: 20px;
     }

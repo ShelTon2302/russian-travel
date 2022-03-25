@@ -1,7 +1,17 @@
-.header__lang-link {
-    margin: 0 17px 0 0;
+@media screen and (min-width: 900px) {
+    .header__lang-link {
+        margin: 46px 48px 0 0;
+    }
 }
 
-.header__lang-link:last-child {
-    margin: 0;
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .header__lang-link {
+        margin: 46px 24px 0 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__lang-link {
+        margin: 30px 16px 0 0;
+    }
 }

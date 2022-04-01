@@ -4,3 +4,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media screen and (min-width: 1280px) {
+  .header {
+      margin: 0 auto;
+      width: 1184px;
+  }
+}
